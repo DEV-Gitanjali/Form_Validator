@@ -15,9 +15,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     min-height: 100vh;
     margin: 0;
+}
+
+h2{
+    text-align: center;
+
 }
 
 .container{
@@ -39,7 +43,8 @@ body{
 .form-control label{
     color: #777;
     display: black;
-    margin-bottom:5px ;
+    margin-bottom:10px ;
+    font-size: 15px;
 }
 
 .form-control input{
@@ -48,7 +53,7 @@ body{
     display: block;
     width: 100%;
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .form-control input:focus{
